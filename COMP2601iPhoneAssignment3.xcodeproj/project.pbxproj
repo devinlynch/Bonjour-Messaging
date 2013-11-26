@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		997530EC1707473D0022A25E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 997530DB1707473D0022A25E /* Event.m */; };
+		997530ED1707473D0022A25E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 997530DB1707473D0022A25E /* Event.m */; };
+		997530EE1707473D0022A25E /* Reactor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997530DD1707473D0022A25E /* Reactor-Info.plist */; };
+		997530EF1707473D0022A25E /* Reactor-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997530DD1707473D0022A25E /* Reactor-Info.plist */; };
+		997530F01707473D0022A25E /* Reactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 997530E01707473D0022A25E /* Reactor.m */; };
+		997530F11707473D0022A25E /* Reactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 997530E01707473D0022A25E /* Reactor.m */; };
+		997530F21707473D0022A25E /* reactor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997530E11707473D0022A25E /* reactor.plist */; };
+		997530F31707473D0022A25E /* reactor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997530E11707473D0022A25E /* reactor.plist */; };
+		997530F41707473D0022A25E /* users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997530E21707473D0022A25E /* users.plist */; };
+		997530F51707473D0022A25E /* users.plist in Resources */ = {isa = PBXBuildFile; fileRef = 997530E21707473D0022A25E /* users.plist */; };
+		997530FA1707473D0022A25E /* LoginEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 997530E91707473D0022A25E /* LoginEventHandler.m */; };
+		997530FB1707473D0022A25E /* LoginEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 997530E91707473D0022A25E /* LoginEventHandler.m */; };
+		99753102170748410022A25E /* BonjourServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99753101170748410022A25E /* BonjourServer.m */; };
+		99753103170748410022A25E /* BonjourServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 99753101170748410022A25E /* BonjourServer.m */; };
+		997531061707485A0022A25E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 997531051707485A0022A25E /* GCDAsyncSocket.m */; };
+		997531071707485A0022A25E /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 997531051707485A0022A25E /* GCDAsyncSocket.m */; };
+		997531091707486D0022A25E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997531081707486D0022A25E /* MobileCoreServices.framework */; };
+		9975310B1707487D0022A25E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9975310A1707487D0022A25E /* Security.framework */; };
+		9975310D170748860022A25E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9975310C170748860022A25E /* CFNetwork.framework */; };
+		99753110170749280022A25E /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975310F170749280022A25E /* Message.m */; };
+		99753111170749280022A25E /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975310F170749280022A25E /* Message.m */; };
 		99BD91AC170606BC0032CC51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD91AB170606BC0032CC51 /* UIKit.framework */; };
 		99BD91AE170606BC0032CC51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD91AD170606BC0032CC51 /* Foundation.framework */; };
 		99BD91B0170606BC0032CC51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD91AF170606BC0032CC51 /* CoreGraphics.framework */; };
@@ -22,8 +43,17 @@
 		99BD91D3170606BC0032CC51 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD91D2170606BC0032CC51 /* SenTestingKit.framework */; };
 		99BD91D4170606BC0032CC51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD91AB170606BC0032CC51 /* UIKit.framework */; };
 		99BD91D5170606BC0032CC51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD91AD170606BC0032CC51 /* Foundation.framework */; };
-		99BD91DD170606BC0032CC51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99BD91DB170606BC0032CC51 /* InfoPlist.strings */; };
-		99BD91E0170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99BD91DF170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.m */; };
+		99FF8FFC1711EC7100462D44 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF8FFB1711EC7100462D44 /* LoginViewController.m */; };
+		99FF8FFF1711F91300462D44 /* LogoutEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF8FFE1711F91300462D44 /* LogoutEventHandler.m */; };
+		99FF90021711FDE100462D44 /* TextEventHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF90011711FDE100462D44 /* TextEventHandler.m */; };
+		99FF90051712177700462D44 /* ChatImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF90031712177700462D44 /* ChatImage.m */; };
+		99FF90061712177700462D44 /* ChatImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF90031712177700462D44 /* ChatImage.m */; };
+		99FF90081712189600462D44 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF90071712189600462D44 /* CustomCell.xib */; };
+		99FF90091712189600462D44 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99FF90071712189600462D44 /* CustomCell.xib */; };
+		99FF900C1712190400462D44 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF900B1712190300462D44 /* CustomCell.m */; };
+		99FF900D1712190400462D44 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF900B1712190300462D44 /* CustomCell.m */; };
+		99FF901017121E7400462D44 /* NSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF900F17121E7400462D44 /* NSAdditions.m */; };
+		99FF901117121E7400462D44 /* NSAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FF900F17121E7400462D44 /* NSAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +67,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		995177071710F1AA00F97DA5 /* ServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerProtocol.h; sourceTree = "<group>"; };
+		997530DA1707473D0022A25E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = COMP2601iPhoneAssignment3/Event.h; sourceTree = "<group>"; };
+		997530DB1707473D0022A25E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = COMP2601iPhoneAssignment3/Event.m; sourceTree = "<group>"; };
+		997530DC1707473D0022A25E /* EventHandlerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventHandlerProtocol.h; path = COMP2601iPhoneAssignment3/EventHandlerProtocol.h; sourceTree = "<group>"; };
+		997530DD1707473D0022A25E /* Reactor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Reactor-Info.plist"; path = "COMP2601iPhoneAssignment3/Reactor-Info.plist"; sourceTree = "<group>"; };
+		997530DE1707473D0022A25E /* Reactor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Reactor-Prefix.pch"; path = "COMP2601iPhoneAssignment3/Reactor-Prefix.pch"; sourceTree = "<group>"; };
+		997530DF1707473D0022A25E /* Reactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reactor.h; path = COMP2601iPhoneAssignment3/Reactor.h; sourceTree = "<group>"; };
+		997530E01707473D0022A25E /* Reactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reactor.m; path = COMP2601iPhoneAssignment3/Reactor.m; sourceTree = "<group>"; };
+		997530E11707473D0022A25E /* reactor.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = reactor.plist; path = COMP2601iPhoneAssignment3/reactor.plist; sourceTree = "<group>"; };
+		997530E21707473D0022A25E /* users.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = users.plist; path = COMP2601iPhoneAssignment3/users.plist; sourceTree = "<group>"; };
+		997530E31707473D0022A25E /* ReactorProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactorProtocol.h; path = COMP2601iPhoneAssignment3/ReactorProtocol.h; sourceTree = "<group>"; };
+		997530E81707473D0022A25E /* LoginEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginEventHandler.h; path = COMP2601iPhoneAssignment3/LoginEventHandler.h; sourceTree = "<group>"; };
+		997530E91707473D0022A25E /* LoginEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginEventHandler.m; path = COMP2601iPhoneAssignment3/LoginEventHandler.m; sourceTree = "<group>"; };
+		99753100170748410022A25E /* BonjourServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourServer.h; sourceTree = "<group>"; };
+		99753101170748410022A25E /* BonjourServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourServer.m; sourceTree = "<group>"; };
+		997531041707485A0022A25E /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		997531051707485A0022A25E /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		997531081707486D0022A25E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9975310A1707487D0022A25E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9975310C170748860022A25E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		9975310E170749280022A25E /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		9975310F170749280022A25E /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		99BD91A8170606BC0032CC51 /* COMP2601iPhoneAssignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMP2601iPhoneAssignment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BD91AB170606BC0032CC51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		99BD91AD170606BC0032CC51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,10 +109,19 @@
 		99BD91CA170606BC0032CC51 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		99BD91D1170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COMP2601iPhoneAssignment3Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99BD91D2170606BC0032CC51 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		99BD91DA170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "COMP2601iPhoneAssignment3Tests-Info.plist"; sourceTree = "<group>"; };
-		99BD91DC170606BC0032CC51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		99BD91DE170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COMP2601iPhoneAssignment3Tests.h; sourceTree = "<group>"; };
-		99BD91DF170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COMP2601iPhoneAssignment3Tests.m; sourceTree = "<group>"; };
+		99FF8FFA1711EC7100462D44 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		99FF8FFB1711EC7100462D44 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		99FF8FFD1711F91300462D44 /* LogoutEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutEventHandler.h; sourceTree = "<group>"; };
+		99FF8FFE1711F91300462D44 /* LogoutEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutEventHandler.m; sourceTree = "<group>"; };
+		99FF90001711FDE100462D44 /* TextEventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEventHandler.h; sourceTree = "<group>"; };
+		99FF90011711FDE100462D44 /* TextEventHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextEventHandler.m; sourceTree = "<group>"; };
+		99FF90031712177700462D44 /* ChatImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatImage.m; sourceTree = "<group>"; };
+		99FF90041712177700462D44 /* ChatImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatImage.h; sourceTree = "<group>"; };
+		99FF90071712189600462D44 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		99FF900A1712190300462D44 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		99FF900B1712190300462D44 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		99FF900E17121E7400462D44 /* NSAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAdditions.h; sourceTree = "<group>"; };
+		99FF900F17121E7400462D44 /* NSAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAdditions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +129,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9975310D170748860022A25E /* CFNetwork.framework in Frameworks */,
+				9975310B1707487D0022A25E /* Security.framework in Frameworks */,
+				997531091707486D0022A25E /* MobileCoreServices.framework in Frameworks */,
 				99BD91AC170606BC0032CC51 /* UIKit.framework in Frameworks */,
 				99BD91AE170606BC0032CC51 /* Foundation.framework in Frameworks */,
 				99BD91B0170606BC0032CC51 /* CoreGraphics.framework in Frameworks */,
@@ -87,11 +151,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		997530FE170747530022A25E /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				995177071710F1AA00F97DA5 /* ServerProtocol.h */,
+				997530DA1707473D0022A25E /* Event.h */,
+				997530DB1707473D0022A25E /* Event.m */,
+				997530DC1707473D0022A25E /* EventHandlerProtocol.h */,
+				997530DD1707473D0022A25E /* Reactor-Info.plist */,
+				997530DE1707473D0022A25E /* Reactor-Prefix.pch */,
+				997530DF1707473D0022A25E /* Reactor.h */,
+				997530E01707473D0022A25E /* Reactor.m */,
+				997530E11707473D0022A25E /* reactor.plist */,
+				997530E21707473D0022A25E /* users.plist */,
+				997530E31707473D0022A25E /* ReactorProtocol.h */,
+				997530E81707473D0022A25E /* LoginEventHandler.h */,
+				997530E91707473D0022A25E /* LoginEventHandler.m */,
+				99FF8FFD1711F91300462D44 /* LogoutEventHandler.h */,
+				99FF8FFE1711F91300462D44 /* LogoutEventHandler.m */,
+				99FF90001711FDE100462D44 /* TextEventHandler.h */,
+				99FF90011711FDE100462D44 /* TextEventHandler.m */,
+			);
+			name = Reactor;
+			sourceTree = "<group>";
+		};
+		997530FF170748210022A25E /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				99FF90031712177700462D44 /* ChatImage.m */,
+				99FF90041712177700462D44 /* ChatImage.h */,
+				997531041707485A0022A25E /* GCDAsyncSocket.h */,
+				997531051707485A0022A25E /* GCDAsyncSocket.m */,
+				99753100170748410022A25E /* BonjourServer.h */,
+				99753101170748410022A25E /* BonjourServer.m */,
+				997530FE170747530022A25E /* Reactor */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
 		99BD919F170606BC0032CC51 = {
 			isa = PBXGroup;
 			children = (
-				99BD91B1170606BC0032CC51 /* COMP2601iPhoneAssignment3 */,
-				99BD91D8170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests */,
+				9975310C170748860022A25E /* CFNetwork.framework */,
+				9975310A1707487D0022A25E /* Security.framework */,
+				997531081707486D0022A25E /* MobileCoreServices.framework */,
+				99BD91B1170606BC0032CC51 /* UI */,
+				997530FF170748210022A25E /* Server */,
 				99BD91AA170606BC0032CC51 /* Frameworks */,
 				99BD91A9170606BC0032CC51 /* Products */,
 			);
@@ -117,9 +222,11 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		99BD91B1170606BC0032CC51 /* COMP2601iPhoneAssignment3 */ = {
+		99BD91B1170606BC0032CC51 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				9975310E170749280022A25E /* Message.h */,
+				9975310F170749280022A25E /* Message.m */,
 				99BD91BA170606BC0032CC51 /* AppDelegate.h */,
 				99BD91BB170606BC0032CC51 /* AppDelegate.m */,
 				99BD91C3170606BC0032CC51 /* MainStoryboard.storyboard */,
@@ -127,14 +234,22 @@
 				99BD91C7170606BC0032CC51 /* MasterViewController.m */,
 				99BD91C9170606BC0032CC51 /* DetailViewController.h */,
 				99BD91CA170606BC0032CC51 /* DetailViewController.m */,
+				99FF90071712189600462D44 /* CustomCell.xib */,
+				99FF900A1712190300462D44 /* CustomCell.h */,
+				99FF900B1712190300462D44 /* CustomCell.m */,
+				99FF8FFA1711EC7100462D44 /* LoginViewController.h */,
+				99FF8FFB1711EC7100462D44 /* LoginViewController.m */,
 				99BD91B2170606BC0032CC51 /* Supporting Files */,
 			);
+			name = UI;
 			path = COMP2601iPhoneAssignment3;
 			sourceTree = "<group>";
 		};
 		99BD91B2170606BC0032CC51 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				99FF900E17121E7400462D44 /* NSAdditions.h */,
+				99FF900F17121E7400462D44 /* NSAdditions.m */,
 				99BD91B3170606BC0032CC51 /* COMP2601iPhoneAssignment3-Info.plist */,
 				99BD91B4170606BC0032CC51 /* InfoPlist.strings */,
 				99BD91B7170606BC0032CC51 /* main.m */,
@@ -142,25 +257,6 @@
 				99BD91BD170606BC0032CC51 /* Default.png */,
 				99BD91BF170606BC0032CC51 /* Default@2x.png */,
 				99BD91C1170606BC0032CC51 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		99BD91D8170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				99BD91DE170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.h */,
-				99BD91DF170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.m */,
-				99BD91D9170606BC0032CC51 /* Supporting Files */,
-			);
-			path = COMP2601iPhoneAssignment3Tests;
-			sourceTree = "<group>";
-		};
-		99BD91D9170606BC0032CC51 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				99BD91DA170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests-Info.plist */,
-				99BD91DB170606BC0032CC51 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,6 +337,10 @@
 				99BD91C0170606BC0032CC51 /* Default@2x.png in Resources */,
 				99BD91C2170606BC0032CC51 /* Default-568h@2x.png in Resources */,
 				99BD91C5170606BC0032CC51 /* MainStoryboard.storyboard in Resources */,
+				997530EE1707473D0022A25E /* Reactor-Info.plist in Resources */,
+				997530F21707473D0022A25E /* reactor.plist in Resources */,
+				997530F41707473D0022A25E /* users.plist in Resources */,
+				99FF90081712189600462D44 /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +348,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BD91DD170606BC0032CC51 /* InfoPlist.strings in Resources */,
+				997530EF1707473D0022A25E /* Reactor-Info.plist in Resources */,
+				997530F31707473D0022A25E /* reactor.plist in Resources */,
+				997530F51707473D0022A25E /* users.plist in Resources */,
+				99FF90091712189600462D44 /* CustomCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +382,18 @@
 				99BD91BC170606BC0032CC51 /* AppDelegate.m in Sources */,
 				99BD91C8170606BC0032CC51 /* MasterViewController.m in Sources */,
 				99BD91CB170606BC0032CC51 /* DetailViewController.m in Sources */,
+				997530EC1707473D0022A25E /* Event.m in Sources */,
+				997530F01707473D0022A25E /* Reactor.m in Sources */,
+				997530FA1707473D0022A25E /* LoginEventHandler.m in Sources */,
+				99753102170748410022A25E /* BonjourServer.m in Sources */,
+				997531061707485A0022A25E /* GCDAsyncSocket.m in Sources */,
+				99753110170749280022A25E /* Message.m in Sources */,
+				99FF8FFC1711EC7100462D44 /* LoginViewController.m in Sources */,
+				99FF8FFF1711F91300462D44 /* LogoutEventHandler.m in Sources */,
+				99FF90021711FDE100462D44 /* TextEventHandler.m in Sources */,
+				99FF90051712177700462D44 /* ChatImage.m in Sources */,
+				99FF900C1712190400462D44 /* CustomCell.m in Sources */,
+				99FF901017121E7400462D44 /* NSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +401,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99BD91E0170606BC0032CC51 /* COMP2601iPhoneAssignment3Tests.m in Sources */,
+				997530ED1707473D0022A25E /* Event.m in Sources */,
+				997530F11707473D0022A25E /* Reactor.m in Sources */,
+				997530FB1707473D0022A25E /* LoginEventHandler.m in Sources */,
+				99753103170748410022A25E /* BonjourServer.m in Sources */,
+				997531071707485A0022A25E /* GCDAsyncSocket.m in Sources */,
+				99753111170749280022A25E /* Message.m in Sources */,
+				99FF90061712177700462D44 /* ChatImage.m in Sources */,
+				99FF900D1712190400462D44 /* CustomCell.m in Sources */,
+				99FF901117121E7400462D44 /* NSAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,14 +438,6 @@
 				99BD91C4170606BC0032CC51 /* en */,
 			);
 			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-		99BD91DB170606BC0032CC51 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99BD91DC170606BC0032CC51 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -459,6 +574,7 @@
 				99BD91E5170606BC0032CC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99BD91E6170606BC0032CC51 /* Build configuration list for PBXNativeTarget "COMP2601iPhoneAssignment3Tests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +583,7 @@
 				99BD91E8170606BC0032CC51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

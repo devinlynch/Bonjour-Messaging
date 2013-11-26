@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol appProtocol
+-(void) logoutUser;
+@end
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

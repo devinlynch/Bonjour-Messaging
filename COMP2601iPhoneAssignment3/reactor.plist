@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EVENT.1.TYPE</key>
+	<string>LOGOUT</string>
+	<key>EVENT.1.CLASS</key>
+	<string>LogoutEventHandler</string>
+	<key>EVENT.1.METHOD</key>
+	<string>handleTheEvent:</string>
+	<key>EVENT.2.TYPE</key>
+	<string>LOGIN</string>
+	<key>EVENT.2.CLASS</key>
+	<string>LoginEventHandler</string>
+	<key>EVENT.2.METHOD</key>
+	<string>handleTheEvent:</string>
+	<key>EVENT.3.TYPE</key>
+	<string>TEXT</string>
+	<key>EVENT.3.CLASS</key>
+	<string>TextEventHandler</string>
+	<key>EVENT.3.METHOD</key>
+	<string>handleTheEvent:</string>
+</dict>
+</plist>
